@@ -1,6 +1,12 @@
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Overpass');
 
+body {
+  background: url('background.jpg') no-repeat center center fixed; 
+  background-size: cover;
+  font-family: sans-serif;
+}
+
 .clear {
     clear: both;
   }
@@ -53,7 +59,7 @@
 }
 
 .links a {
-    color:black;
+    color:rgb(240,240,240);
     font-size: 25px;
     font-family: 'Overpass', sans-serif;
     border-bottom: 1px solid #dfdfdf;
@@ -67,16 +73,27 @@
     clear:both;
   }
 
+  p {
+    font-family: 'Overpass', sans-serif;
+    color: rgb(240,240,240);
+    font-weight:bold;
+  }
+
   h1 {
     font-family: 'Overpass', sans-serif;
+    color: rgb(240,240,240);
     font-weight:bold;
-  font-size:48px;
+    font-size:48px;
   }
   
   h2 {
-    color: #dddddd;
+    color: rgb(240,240,240);
     font-family: 'Overpass', sans-serif;
   }
   h2 span {
-    color: #dddddd;
+    color: rgb(240,240,240);
+  }
+
+  h2 u {
+    color: rgb(240,240,240);
   }
